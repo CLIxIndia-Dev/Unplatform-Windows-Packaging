@@ -30,12 +30,17 @@ This is the script for making the windows installer for Unplatform (CLIxModule) 
 
 * Step 4:-  Find the following lines in the script and change the locations as per the location (file paths) to the clixmodules in your computer.
 	
-``` [Setup]
+```
+[Setup]
+	
 	OutputDir=(Please put the path where you want the packaged output file is to be stored in your computer)
 	SetupIconFile=(Please give the path to the setup icon of the clixmodules square icon which is used exclusively for clixmodules setup files)
-	[Files]
+
+[Files]
+	
 	Source: (here set the path to the unplatform_win32_ssl.bat file in the clixmodule in your computer)
-	Source: (here set the path to the complete folder of the clixmodules /* defines all the files inside clixmodules)```
+	Source: (here set the path to the complete folder of the clixmodules /* defines all the files inside clixmodules)
+```
 
 * After Changing this files paths press on the green arrow (Run) button located on the top menu in the inno software. This will start the compiling and this will take
 a bit longer and time depends on the total size of the complete clixmodules.
